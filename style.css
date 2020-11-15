@@ -483,56 +483,60 @@ section {
     }
 }
 
-
-}
 @media only screen and (max-width: 650px) {
     #cetvrta-sekcija .kartica {
         width: 90%;
         display: block;
         margin: auto;
     }
-    
     #cetvrta-sekcija {
         padding-top: 40px;
         height: 800px;
     }
 }
+
 @media only screen and (max-width: 550px) {
     #sesta-sekcija form {
         width: 95%;
     }
 }
+
 @media only screen and (max-width: 510px) {
     #prva-sekcija {
         padding-top: 50px;
     }
-    
     #druga-sekcija .sadrzaj {
         margin-top: 50px;
     }
-    
     #treca-sekcija h1 {
         font-size: 35px;
     }
-    
     #treca-sekcija p {
         font-size: 18px;
     }
-    
     #peta-sekcija h1 {
         font-size: 35px;
     }
-    
     #peta-sekcija p {
         font-size: 18px;
     }
 }
+
 @media only screen and (max-width: 460px) {
     #druga-sekcija {
         height: 550px;
     }
-    
     #cetvrta-sekcija {
         height: 900px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #cetvrta-sekcija .kartica {
+        width: 100%;
+        margin: 1.5%;
+        display: block;
+        padding: 0px 15px;
+        transition: all 0.4s;
     }
 }
