@@ -1,0 +1,538 @@
+* {
+    /* outline: 1px dashed red; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    margin: 0px;
+    background-image: url("Slike/02.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: -100px;
+}
+
+header {
+    background-color: white;
+    padding: 20px 10px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+header li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+}
+
+header li:hover {
+    color: darkblue;
+    cursor: pointer;
+}
+
+section {
+    background-color: white;
+    padding: 10px;
+    height: 700px;
+}
+
+#prva-sekcija {
+    background-image: url("Slike/01.jpg");
+    color: white;
+    /* padding-left: 15%; */
+    padding-top: 105px;
+}
+
+#mapa {
+    padding-top: 211px;
+}
+
+#prva-sekcija .sadrzaj {
+    width: 1100px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 0px 10px;
+}
+
+#prva-sekcija h1 {
+    font-size: 60px;
+    font-weight: normal;
+}
+
+#prva-sekcija p {
+    font-size: 25px;
+}
+
+#prva-sekcija button {
+    background-color: gainsboro;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+    transition: all 0.3s;
+}
+
+#prva-sekcija button:hover {
+    cursor: pointer;
+    background-color: rgb(93, 93, 93);
+}
+
+#druga-sekcija {
+    height: 770px;
+}
+
+#druga-sekcija .sadrzaj {
+    width: 1100px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#druga-sekcija .opis,
+#druga-sekcija .slike {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    position: relative;
+}
+
+#druga-sekcija .opis {
+    width: 30%;
+}
+
+#druga-sekcija h1 {
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+#druga-sekcija p {
+    font-size: 20px;
+    color: rgb(63, 63, 63);
+}
+
+#druga-sekcija .slike {
+    width: 65%;
+}
+
+#druga-sekcija .slika1 {
+    transition: all 400ms;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+#druga-sekcija .slika1:hover {
+    position: absolute;
+    top: 4px;
+    left: 100px;
+    transition: all 500ms;
+}
+
+#druga-sekcija .slika2 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#treca-sekcija {
+    background-image: url("Slike/04.jpg");
+    background-size: cover;
+    background-position: 0px -350px;
+    padding: 0px;
+}
+
+#treca-sekcija div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 110px 27%;
+}
+
+#treca-sekcija h1 {
+    font-size: 55px;
+    font-weight: normal;
+    color: rgb(230, 230, 230);
+    text-shadow: 2px 2px gray;
+}
+
+#treca-sekcija p {
+    font-size: 20px;
+    line-height: 35px;
+    color: rgb(230, 230, 230);
+}
+
+#cetvrta-sekcija {
+    padding-top: 100px;
+}
+
+#cetvrta-sekcija h1 {
+    /* text-align: center; */
+    padding-left: 30px;
+}
+
+#cetvrta-sekcija .kartice {
+    width: 1100px;
+    margin: auto;
+}
+
+#cetvrta-sekcija .kartica {
+    width: 30%;
+    margin: 1.5%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 15px;
+    transition: all 0.4s;
+}
+
+#cetvrta-sekcija .kartica:hover {
+    transition: all 400ms;
+    cursor: pointer;
+    transform: scale(1.1);
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    background-color: rgb(95, 150, 255, 0.1);
+    /* -webkit-box-shadow: 10px 10px 9px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 9px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 9px -8px rgba(0, 0, 0, 0.75); */
+    -webkit-box-shadow: 10px 11px 15px 0px rgba(95, 150, 255, 0.58);
+    box-shadow: 10px 11px 15px 0px rgba(95, 150, 255, 0.58);
+}
+
+#cetvrta-sekcija .kartica ul {
+    text-align: left;
+    padding: 0px 15px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+#cetvrta-sekcija .kartica li {
+    margin-bottom: 5px;
+}
+
+#peta-sekcija {
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* padding: 80px 27%; */
+    padding-top: 100px;
+    padding: 27%, 50%;
+    text-align: center;
+    color: white;
+}
+
+#peta-sekcija h1 {
+    font-size: 55px;
+    font-weight: normal;
+    color: rgb(230, 230, 230);
+    text-shadow: 2px 2px gray;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 35px;
+    text-align: center;
+    margin: auto;
+    width: 550px;
+}
+
+#peta-sekcija p {
+    font-size: 20px;
+    line-height: 35px;
+    color: rgb(230, 230, 230);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+#peta-sekcija button {
+    transition: all 200ms;
+    background-color: gainsboro;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+#peta-sekcija button:hover {
+    transition: all 400ms;
+    cursor: pointer;
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: lightseagreen;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+#sesta-sekcija form {
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#sesta-sekcija label {
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+#sesta-sekcija input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(180, 180, 180);
+}
+
+#sesta-sekcija textarea {
+    width: 100%;
+    height: 150px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(180, 180, 180);
+}
+
+#sesta-sekcija button {
+    transition: all 400ms;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    /* background-color: rgb(44, 83, 44); */
+    background: rgb(39, 46, 163);
+    background: radial-gradient(circle, rgba(39, 46, 163, 1) 0%, rgba(97, 96, 48, 1) 100%);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#sesta-sekcija button:hover {
+    transform: scale(1.1);
+    transition: all 500ms;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    /* background-color: rgb(44, 83, 44); */
+    background: rgb(39, 46, 163);
+    background: radial-gradient(circle, rgb(70, 76, 179) 0%, rgb(148, 146, 58) 100%);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#pocetnaStrana {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    border: 5px;
+    border-color: blue;
+    margin: auto;
+    width: auto;
+}
+
+#pocetnaButton {
+    padding-top: -20px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    border: 5px;
+    border-color: blue;
+    margin: auto;
+    width: auto;
+    border-radius: 10px;
+    background-color: bisque;
+    cursor: pointer;
+    transition: all 400ms;
+}
+
+#pocetnaButton:hover {
+    transform: scale(1.1);
+    background-color: aquamarine;
+}
+
+@media only screen and (max-width: 1700px) {
+    #treca-sekcija {
+        background-position: 0px -200px;
+    }
+}
+
+@media only screen and (max-width: 1550px) {
+    #treca-sekcija {
+        background-position: 0px -160px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    #treca-sekcija {
+        background-position: 0px -140px;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    #treca-sekcija {
+        background-position: 0px -100px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    #treca-sekcija {
+        height: 600px;
+    }
+    #treca-sekcija div {
+        padding: 80px 22%;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    #treca-sekcija {
+        background-position: 0px -50px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    #treca-sekcija {
+        height: 500px;
+    }
+    #treca-sekcija div {
+        padding: 50px 15%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #prva-sekcija .sadrzaj {
+        width: 100%;
+    }
+    #druga-sekcija {
+        height: 500px;
+    }
+    #druga-sekcija .sadrzaj {
+        width: 100%;
+    }
+    #druga-sekcija .opis {
+        width: 100%;
+    }
+    #druga-sekcija .slike {
+        display: none
+    }
+    #cetvrta-sekcija .kartice {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    #peta-sekcija {
+        padding: 80px 15%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #treca-sekcija {
+        background-position: 0px 0px;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    #treca-sekcija div {
+        padding: 30px 10%;
+    }
+    #cetvrta-sekcija .kartica {
+        margin: 1.3%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    #treca-sekcija div {
+        padding: 20px 5%;
+    }
+    #peta-sekcija {
+        padding: 50px 10%;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    #treca-sekcija h1 {
+        font-size: 40px;
+    }
+    #peta-sekcija h1 {
+        margin: auto;
+        width: fit-content;
+        color: red;
+    }
+}
+
+
+}
+@media only screen and (max-width: 650px) {
+    #cetvrta-sekcija .kartica {
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+    
+    #cetvrta-sekcija {
+        padding-top: 40px;
+        height: 800px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    #sesta-sekcija form {
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 510px) {
+    #prva-sekcija {
+        padding-top: 50px;
+    }
+    
+    #druga-sekcija .sadrzaj {
+        margin-top: 50px;
+    }
+    
+    #treca-sekcija h1 {
+        font-size: 35px;
+    }
+    
+    #treca-sekcija p {
+        font-size: 18px;
+    }
+    
+    #peta-sekcija h1 {
+        font-size: 35px;
+    }
+    
+    #peta-sekcija p {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 460px) {
+    #druga-sekcija {
+        height: 550px;
+    }
+    
+    #cetvrta-sekcija {
+        height: 900px;
+    }
+}
