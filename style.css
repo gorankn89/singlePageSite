@@ -539,4 +539,11 @@ section {
         padding: 0px 15px;
         transition: all 0.4s;
     }
+    #treca-sekcija {
+        height: 600px;
+    }
+    #druga-sekcija h1 {
+        font-size: 35px;
+        text-align: center;
+    }
 }
