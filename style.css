@@ -351,6 +351,7 @@ section {
     border-color: blue;
     margin: auto;
     width: auto;
+    height: 80px;
 }
 
 #pocetnaButton {
